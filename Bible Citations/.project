@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Bible Citations</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>tests/eng-web_usfx.xml</name>
+			<type>1</type>
+			<location>C:/Users/4thex/Downloads/eng-web_usfx/eng-web_usfx.xml</location>
+		</link>
+	</linkedResources>
+</projectDescription>
