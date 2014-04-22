@@ -31,6 +31,8 @@ public class CalculatorTests {
 		assertThat(lastDigit, is('1'));
 		presenter.keyInput('2');
 		assertThat(lastDigit, is('2'));
+		presenter.keyInput('.');
+		assertThat(lastDigit, is('.'));
 		presenter.keyInput('3');
 		assertThat(lastDigit, is('3'));
 	}

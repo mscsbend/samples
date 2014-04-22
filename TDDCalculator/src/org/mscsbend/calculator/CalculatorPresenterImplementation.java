@@ -22,7 +22,7 @@ public class CalculatorPresenterImplementation implements CalculatorPresenter {
 
 	@Override
 	public void keyInput(char key) {
-		if(Character.isDigit(key)) {
+		if(Character.isDigit(key) || '.' == key) {
 			this.buffer.append(key);
 			this.view.addDigit(key);
 		} else if(isAction(key)) {
