@@ -1,3 +1,4 @@
 *.class
 Bible Citations/bin/*
 WebServer/bin/*
+TDDCalculator/bin/org/mscsbend/calculator/Application.icon.png
