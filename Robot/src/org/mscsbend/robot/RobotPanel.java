@@ -43,6 +43,21 @@ public class RobotPanel extends JPanel implements RobotView {
 		AffineTransform scaleTransform = AffineTransform.getScaleInstance(scale, scale);
 		g2.transform(scaleTransform);
 		
+		// Draw floor
+		g2.setColor(Color.DARK_GRAY);
+		g2.drawLine(-40, 40, 100, 40);
+		g2.drawLine(-100, 40, -60, 40);
+		
+		// Draw ball
+		g2.setColor(Color.GRAY);
+		g2.fillOval(30, 30, 10, 10);
+		g2.setColor(Color.DARK_GRAY);
+		g2.drawOval(30, 30, 10, 10);
+		
+		// Draw bucket
+		g2.drawLine(-40, 40, -40, 60);
+		g2.drawLine(-60, 40, -60, 60);
+		
 		// Shoulder angle
 		AffineTransform rotateShoulderTransform = AffineTransform.getRotateInstance(Math.toRadians(this.shoulderAngle));
 		g2.transform(rotateShoulderTransform);
